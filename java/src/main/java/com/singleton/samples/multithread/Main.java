@@ -16,6 +16,8 @@ public class Main {
     static class ThreadFoo implements Runnable {
         @Override
         public void run() {
+
+
             Singleton singleton = Singleton.GetInstance();
             System.out.println(singleton.hashCode());
         }

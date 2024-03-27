@@ -2,6 +2,7 @@ package com.singleton.samples.singlethread;
 
 /***
  * 단일 스레드 환경에서 싱글톤
+ * 객체를 두개 만들어, 해당 객체가 동일한 객체인 지 확인.
  */
 public class Main {
     public static void main(String[] args) {
