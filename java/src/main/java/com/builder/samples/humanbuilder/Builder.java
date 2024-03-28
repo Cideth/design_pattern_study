@@ -3,8 +3,8 @@ package com.builder.samples.humanbuilder;
 
 /**
  * 사람과 관련된 Builder 인터페이스 정의
- * @param <T1> Builder 객체 자체의 타입을 말합니다.
- * @param <T2> Builder를 통해 생성할 클래스의 타입을 말합니다.
+ * @param <T1> Builder
+ * @param <T2> Builder를 통해 만들 제품 타입
  */
 public interface Builder<T1,T2> {
 
